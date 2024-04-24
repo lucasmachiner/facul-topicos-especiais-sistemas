@@ -7,6 +7,7 @@ C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exerc
 C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\obj\Debug\net8.0\exercicio-biblioteca.AssemblyInfoInputs.cache
 C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\obj\Debug\net8.0\exercicio-biblioteca.AssemblyInfo.cs
 C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\obj\Debug\net8.0\exercicio-biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\obj\Debug\net8.0\exercicio-biblioteca.sourcelink.json
 C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\obj\Debug\net8.0\exercicio-biblioteca.dll
 C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\obj\Debug\net8.0\refint\exercicio-biblioteca.dll
 C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\obj\Debug\net8.0\exercicio-biblioteca.pdb
