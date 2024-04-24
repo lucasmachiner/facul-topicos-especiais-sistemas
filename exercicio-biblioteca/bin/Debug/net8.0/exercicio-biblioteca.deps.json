@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "exercicio-biblioteca/1.0.0": {
+        "runtime": {
+          "exercicio-biblioteca.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "exercicio-biblioteca/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

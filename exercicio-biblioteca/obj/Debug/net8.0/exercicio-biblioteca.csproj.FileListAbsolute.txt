@@ -1,0 +1,14 @@
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\bin\Debug\net8.0\exercicio-biblioteca.exe
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\bin\Debug\net8.0\exercicio-biblioteca.deps.json
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\bin\Debug\net8.0\exercicio-biblioteca.runtimeconfig.json
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\bin\Debug\net8.0\exercicio-biblioteca.dll
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\bin\Debug\net8.0\exercicio-biblioteca.pdb
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\obj\Debug\net8.0\exercicio-biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\obj\Debug\net8.0\exercicio-biblioteca.AssemblyInfoInputs.cache
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\obj\Debug\net8.0\exercicio-biblioteca.AssemblyInfo.cs
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\obj\Debug\net8.0\exercicio-biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\obj\Debug\net8.0\exercicio-biblioteca.dll
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\obj\Debug\net8.0\refint\exercicio-biblioteca.dll
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\obj\Debug\net8.0\exercicio-biblioteca.pdb
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\obj\Debug\net8.0\exercicio-biblioteca.genruntimeconfig.cache
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-biblioteca\obj\Debug\net8.0\ref\exercicio-biblioteca.dll
