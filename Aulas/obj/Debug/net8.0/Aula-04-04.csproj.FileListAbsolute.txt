@@ -1,0 +1,5 @@
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\Aulas\obj\Debug\net8.0\Aula-04-04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\Aulas\obj\Debug\net8.0\Aula-04-04.AssemblyInfoInputs.cache
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\Aulas\obj\Debug\net8.0\Aula-04-04.AssemblyInfo.cs
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\Aulas\obj\Debug\net8.0\Aula-04-04.csproj.CoreCompileInputs.cache
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\Aulas\obj\Debug\net8.0\Aula-04-04.sourcelink.json
