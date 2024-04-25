@@ -1,0 +1,15 @@
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-heranca\obj\Debug\net8.0\exercicio-heranca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-heranca\obj\Debug\net8.0\exercicio-heranca.AssemblyInfoInputs.cache
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-heranca\obj\Debug\net8.0\exercicio-heranca.AssemblyInfo.cs
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-heranca\obj\Debug\net8.0\exercicio-heranca.csproj.CoreCompileInputs.cache
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-heranca\obj\Debug\net8.0\exercicio-heranca.sourcelink.json
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-heranca\bin\Debug\net8.0\exercicio-heranca.exe
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-heranca\bin\Debug\net8.0\exercicio-heranca.deps.json
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-heranca\bin\Debug\net8.0\exercicio-heranca.runtimeconfig.json
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-heranca\bin\Debug\net8.0\exercicio-heranca.dll
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-heranca\bin\Debug\net8.0\exercicio-heranca.pdb
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-heranca\obj\Debug\net8.0\exercicio-heranca.dll
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-heranca\obj\Debug\net8.0\refint\exercicio-heranca.dll
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-heranca\obj\Debug\net8.0\exercicio-heranca.pdb
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-heranca\obj\Debug\net8.0\exercicio-heranca.genruntimeconfig.cache
+C:\Users\lucas.machiner\Desktop\faculdade\facul-topicos-especiais-sistemas\exercicio-heranca\obj\Debug\net8.0\ref\exercicio-heranca.dll
