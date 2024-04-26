@@ -1,9 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Conta contaMachiner = new Conta();
-contaMachiner.TipoConta = "Poupança";
-contaMachiner.NumeroConta = 12345;
-contaMachiner.Saldo = 500;
-contaMachiner.Trasacao("deposito", 200);
+Conta corrente = new Corrente();
+corrente.NumeroConta = 1234;
+corrente.Saldo = 1000;
+Console.WriteLine(corrente.NumeroConta);
+Console.WriteLine(corrente.Saldo);
+corrente.Depositar(200);
 
-Transacao transacao = new Transacao();
-transacao.ExibirDetalhes(contaMachiner);
+Console.WriteLine(corrente.Saldo);
+corrente.Sacar(300);
+Console.WriteLine(corrente.Saldo);
+
+// Transacao transacao = new Transacao(corrente.Depositar().nameof, 200);
