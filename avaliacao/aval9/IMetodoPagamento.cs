@@ -1,4 +1,4 @@
 public interface IMetodoPagamento
 {
-  public void Pagamento()
+  public void Pagamento();
 }

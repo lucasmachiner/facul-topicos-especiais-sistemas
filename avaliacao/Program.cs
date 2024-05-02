@@ -25,3 +25,17 @@ locadora.LocarFilme("Teste");
 
 Console.WriteLine("----------------- Devolver filmes -----------------");
 locadora.DevolverFilme("Borat");
+
+Ingles ingles = new Ingles();
+
+Aluno aluno = new Aluno();
+aluno.Nome = "Lucas Machiner";
+aluno.Matricula = "123456";
+aluno.Nota1 = 8;
+aluno.Nota2 = 5;
+aluno.Nota3 = 9;
+
+ingles.NivelCurso = "Avançado";
+ingles.AdicionarAluno(aluno);
+ingles.CalcMedia("123456");
+ingles.GerarCertificado("123456");
