@@ -1,8 +1,26 @@
 public class ReservaRegular : IReserva
 {
-  public string Passageiro { get; set; }
+  public virtual Passageiro Passageiro { get; set; }
   public bool Reservado { get; set; }
-  public void ReservarVoo() { }
-  public void CancelarReserva();
-  public void VerificarReserva();
+  public void ReservarVoo()
+  {
+    Reservado = true;
+    Console.WriteLine("Reserva realizada!");
+  }
+  public void CancelarReserva()
+  {
+    Reservado = false;
+    Console.WriteLine("Reserva Cancelada");
+  }
+  public void VerificarReserva()
+  {
+    if (Reservado)
+    {
+      Console.WriteLine("Reserva confirmada");
+    }
+    else
+    {
+      Console.WriteLine("Reserva Cancelada");
+    }
+  }
 }

@@ -39,3 +39,13 @@ ingles.NivelCurso = "Avançado";
 ingles.AdicionarAluno(aluno);
 ingles.CalcMedia("123456");
 ingles.GerarCertificado("123456");
+
+
+Balcao balcao = new Balcao();
+Passageiro passageiro = new Passageiro();
+
+passageiro.Nome = "Lucas Machiner";
+passageiro.Cpf = "123";
+
+ReservaRegular reservaRegular = new ReservaRegular();
+reservaRegular.ReservarVoo();
