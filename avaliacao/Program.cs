@@ -1,4 +1,28 @@
 ﻿// See https://aka.ms/new-console-template for more information
+Loja loja = new Loja();
+
+Produto produto1 = new Produto();
+produto1.Nome = "Mouse";
+produto1.Preco = 100;
+produto1.QtdEmEstoque = 10;
+
+loja.AdicionarProduto(produto1);
+
+Produto produto2 = new Produto();
+produto2.Nome = "Teclado";
+produto2.Preco = 200;
+produto2.QtdEmEstoque = 10;
+
+loja.AdicionarProduto(produto2);
+
+loja.ListarProdutos();
+Console.WriteLine(loja.CalcularValorTotalProduto("Mouse"));
+
+Console.WriteLine("----------------- Removendo -------------");
+
+loja.RemoverProduto("Mouse");
+loja.ListarProdutos();
+
 Locadora locadora = new Locadora();
 Filme filme = new Filme();
 
