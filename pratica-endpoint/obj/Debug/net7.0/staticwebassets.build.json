@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SDt4BSeUmGvFKu5OBnhYdOWsghGYXrjGP8zUwPLKqlQ=",
+  "Source": "pratica-endpoint",
+  "BasePath": "_content/pratica-endpoint",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
