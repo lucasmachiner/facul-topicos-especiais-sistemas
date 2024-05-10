@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas.machiner\\Desktop\\faculdade\\facul-topicos-especiais-sistemas\\primeiroapi\\primeiroapi.csproj": {}
+    "C:\\Users\\lucas.machiner\\Desktop\\faculdade\\facul-topicos-especiais-sistemas\\primeiraApi_webApi\\primeiraApi_webApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas.machiner\\Desktop\\faculdade\\facul-topicos-especiais-sistemas\\primeiroapi\\primeiroapi.csproj": {
+    "C:\\Users\\lucas.machiner\\Desktop\\faculdade\\facul-topicos-especiais-sistemas\\primeiraApi_webApi\\primeiraApi_webApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.machiner\\Desktop\\faculdade\\facul-topicos-especiais-sistemas\\primeiroapi\\primeiroapi.csproj",
-        "projectName": "primeiroapi",
-        "projectPath": "C:\\Users\\lucas.machiner\\Desktop\\faculdade\\facul-topicos-especiais-sistemas\\primeiroapi\\primeiroapi.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.machiner\\Desktop\\faculdade\\facul-topicos-especiais-sistemas\\primeiraApi_webApi\\primeiraApi_webApi.csproj",
+        "projectName": "primeiraApi_webApi",
+        "projectPath": "C:\\Users\\lucas.machiner\\Desktop\\faculdade\\facul-topicos-especiais-sistemas\\primeiraApi_webApi\\primeiraApi_webApi.csproj",
         "packagesPath": "C:\\Users\\lucas.machiner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.machiner\\Desktop\\faculdade\\facul-topicos-especiais-sistemas\\primeiroapi\\obj\\",
+        "outputPath": "C:\\Users\\lucas.machiner\\Desktop\\faculdade\\facul-topicos-especiais-sistemas\\primeiraApi_webApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas.machiner\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

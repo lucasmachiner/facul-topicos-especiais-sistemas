@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas.machiner\\Desktop\\faculdade\\primeiroapi\\primeiroapi.csproj",
+      "projectUniqueName": "C:\\Users\\lucas.machiner\\Desktop\\faculdade\\facul-topicos-especiais-sistemas\\primeiroapi\\primeiroapi.csproj",
       "projectName": "primeiroapi",
-      "projectPath": "C:\\Users\\lucas.machiner\\Desktop\\faculdade\\primeiroapi\\primeiroapi.csproj",
+      "projectPath": "C:\\Users\\lucas.machiner\\Desktop\\faculdade\\facul-topicos-especiais-sistemas\\primeiroapi\\primeiroapi.csproj",
       "packagesPath": "C:\\Users\\lucas.machiner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas.machiner\\Desktop\\faculdade\\primeiroapi\\obj\\",
+      "outputPath": "C:\\Users\\lucas.machiner\\Desktop\\faculdade\\facul-topicos-especiais-sistemas\\primeiroapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas.machiner\\AppData\\Roaming\\NuGet\\NuGet.Config",
