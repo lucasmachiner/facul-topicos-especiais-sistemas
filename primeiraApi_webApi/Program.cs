@@ -22,20 +22,20 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
-//TODO -> commitar essas duas linhas
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+////TODO -> commitar essas duas linhas
+//builder.Services.AddEndpointsApiExplorer();
+//builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 
 // TODO -> commitar as integrações com o swagger
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseSwagger();
+//    app.UseSwaggerUI();
+//}
 
 // app.UseHttpsRedirection();
 
@@ -51,11 +51,54 @@ app.MapPost("/login", async (HttpContext context) =>
     var senha = json.RootElement.GetProperty("senha").GetString();
 
     var token = "";
-    if(senha == "1029")
+    if (senha == "1029")
     {
         token = GenerateToken(email);
     }
-    return "ok";
+    //return token;
+    context.Response.WriteAsync(token);
+});
+
+//Rota segura: toda rota tem corpo de codigo parecido
+app.MapGet("/rotaSegura", async (HttpContext context) =>
+{
+    //Verificar se o token está valido
+    if (!context.Request.Headers.ContainsKey("Authorization"))
+    {
+        context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+    }
+    await context.Response.WriteAsync("Token não fornecido");
+
+    //Obter token
+    var token = context.Request.Headers["Authentication"].ToString().Replace("Bearer ", "");
+
+    //Validar o token
+    // Esta logica sera convertida em um metodo dentro de uma classe a ser reaproveitada
+    
+    var tokenHandler = new JwtSecurityTokenHandler();
+    var key = Encoding.ASCII.GetBytes("abcabcabcabcabcabcabcabcabcabcabcabc");
+    var validationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(key),
+        ValidateIssuer = false,
+        ValidateAudience = false
+    };
+    SecurityToken ValidateToken;
+
+    try
+    {
+        tokenHandler.ValidateToken(token, validationParameters, out ValidateToken);
+    }
+    catch(Exception e) {
+        //Caso o token seja invalido
+        context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+        await context.Response.WriteAsync("Token inválido");
+    }
+
+    await context.Response.WriteAsync("Autorizado");
+    return "";
+
 });
 
 var summaries = new[]
@@ -68,7 +111,7 @@ app.MapGet("/weatherforecast", () =>
     var forecast = Enumerable.Range(1, 5).Select(index =>
         new WeatherForecast
         (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
+            DateOnly.FromDateTime(DateTime.UtcNow.AddDays(index)),
             Random.Shared.Next(-20, 55),
             summaries[Random.Shared.Next(summaries.Length)]
         ))
@@ -82,10 +125,10 @@ app.MapGet("/weatherforecast", () =>
 string GenerateToken(string data)
 {
     var tokenHandler = new JwtSecurityTokenHandler();
-    var secretKey = Encoding.ASCII.GetBytes("abc"); //Esta chave sera gravada em uma variavel de ambiente
+    var secretKey = Encoding.ASCII.GetBytes("abcabcabcabcabcabcabcabcabcabcabcabc"); //Esta chave sera gravada em uma variavel de ambiente
     var tokenDecriptor = new SecurityTokenDescriptor
     {
-        Expires = DateTime.Now.AddHours(1),
+        Expires = DateTime.UtcNow.AddHours(1),
         SigningCredentials = new SigningCredentials(
             new SymmetricSecurityKey(secretKey),
             SecurityAlgorithms.HmacSha256Signature
