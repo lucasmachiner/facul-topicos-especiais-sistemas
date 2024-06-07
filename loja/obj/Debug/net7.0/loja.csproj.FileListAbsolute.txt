@@ -6,3 +6,11 @@ C:\Users\lucas\Desktop\Meu\faculdade\facul-topicos-especiais-sistemas\loja\obj\D
 C:\Users\lucas\Desktop\Meu\faculdade\facul-topicos-especiais-sistemas\loja\obj\Debug\net7.0\loja.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\lucas\Desktop\Meu\faculdade\facul-topicos-especiais-sistemas\loja\obj\Debug\net7.0\loja.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\lucas\Desktop\Meu\faculdade\facul-topicos-especiais-sistemas\loja\obj\Debug\net7.0\loja.sourcelink.json
+C:\Users\autologon\Desktop\seila\facul-topicos-especiais-sistemas\loja\obj\Debug\net7.0\loja.csproj.AssemblyReference.cache
+C:\Users\autologon\Desktop\seila\facul-topicos-especiais-sistemas\loja\obj\Debug\net7.0\loja.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\autologon\Desktop\seila\facul-topicos-especiais-sistemas\loja\obj\Debug\net7.0\loja.AssemblyInfoInputs.cache
+C:\Users\autologon\Desktop\seila\facul-topicos-especiais-sistemas\loja\obj\Debug\net7.0\loja.AssemblyInfo.cs
+C:\Users\autologon\Desktop\seila\facul-topicos-especiais-sistemas\loja\obj\Debug\net7.0\loja.csproj.CoreCompileInputs.cache
+C:\Users\autologon\Desktop\seila\facul-topicos-especiais-sistemas\loja\obj\Debug\net7.0\loja.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\autologon\Desktop\seila\facul-topicos-especiais-sistemas\loja\obj\Debug\net7.0\loja.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\autologon\Desktop\seila\facul-topicos-especiais-sistemas\loja\obj\Debug\net7.0\loja.sourcelink.json
